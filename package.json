@@ -1,0 +1,19 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "Simple calendar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^18.0.0",
+    "mongoose": "^4.9.3",
+    "node-holidayapi": "^1.0.2"
+  },
+  "author": "Michael J. Stokes",
+  "license": "ISC"
+}
