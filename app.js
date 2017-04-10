@@ -6,6 +6,7 @@ var fs = require('fs');
 var holidayAPI = require('node-holidayapi');
 var hapi = new holidayAPI('4e9e1513-0b2a-4662-a23a-6ef4299378d6').v1;
 
+//Holiday API Parameters
 var parameters = {
     country: 'US',
     year: 2017,
@@ -29,7 +30,7 @@ app.use(express.static(process.cwd() + '/public'));
 
 
 
-
+// Getting index.html
 app.get('/', function(req, res){
     res.send(fs.readFileSync('./views/index.html', 'utf8'));
 });
